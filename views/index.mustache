@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+  </head>
+  <body>
+    <h1>Welcooommeeeee {{user}}!</h1>
+    <p>Glad to have you back here again. Seems like you've been here {{#views}}{{views}}{{/views}} times!</p>
+    <form class="logout" action="/logout" method="post">
+        <button type="submit" name="logout">Logout</button>
+
+    </form>
+
+  </body>
+</html>
